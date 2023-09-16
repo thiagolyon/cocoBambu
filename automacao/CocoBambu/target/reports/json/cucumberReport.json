@@ -9,103 +9,699 @@
     "line": 4,
     "elements": [
       {
-        "line": 5,
-        "name": "Usuário deseja resetar e redefinir senha",
+        "line": 9,
+        "name": "Acessar tela login",
         "description": "",
-        "id": "resetar-e-redefinir-senha;usuário-deseja-resetar-e-redefinir-senha",
-        "type": "scenario",
-        "keyword": "Cenário",
+        "type": "background",
+        "keyword": "Contexto",
         "steps": [
           {
             "result": {
-              "duration": 2903227800,
+              "duration": 2946825400,
               "status": "passed"
             },
-            "line": 6,
+            "line": 10,
             "name": "que estou na tela de login",
             "match": {
               "location": "LoginSteps.que_estou_na_tela_de_login()"
             },
             "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login com sucesso",
+        "description": "",
+        "id": "login-do-usuário;login-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 1103800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterScenario(Scenario)"
+            }
           },
           {
             "result": {
-              "duration": 84668300,
+              "duration": 1021800,
               "status": "passed"
             },
-            "line": 7,
-            "name": "clico no botao Resetar senha",
             "match": {
-              "location": "ResetarSteps.clico_no_botao_Resetar_senha()"
+              "location": "CadastroSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 509900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ResetarSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 119887599,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencho o campo Email com \"thiago.lyon.passos@gmail.com\" valido",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thiago.lyon.passos@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.preencho_o_campo_Email_com_valido(String)"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 724333700,
+              "duration": 80759400,
               "status": "passed"
             },
-            "line": 8,
-            "name": "preencho o email \"thiago.lyon.passos@gmail.com\"",
+            "line": 15,
+            "name": "preencho o campo Senha com \"9KrDv$H39diPHZ\" valida",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9KrDv$H39diPHZ",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.preencho_o_campo_Senha_com_valida(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 72975800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico no botao entrar",
+            "match": {
+              "location": "LoginSteps.clico_no_botao_entrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1575933200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "preencho o campo auteticacao com o codigo recebido",
+            "match": {
+              "location": "LoginSteps.preencho_o_campo_auteticacao_com_o_codigo_recebido()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 7000624600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clico no botao acessar",
+            "match": {
+              "location": "LoginSteps.clico_no_botao_acessar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 15500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "a aplicacao deve ser redirecionada para a tela de delivery",
+            "match": {
+              "location": "LoginSteps.a_aplicacao_deve_ser_redirecionada_para_a_tela_de_delivery()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@login-sucesso"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Acessar tela login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3103043800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que estou na tela de login",
+            "match": {
+              "location": "LoginSteps.que_estou_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Usuário realiza login com um email invalido",
+        "description": "",
+        "id": "login-do-usuário;usuário-realiza-login-com-um-email-invalido",
+        "after": [
+          {
+            "result": {
+              "duration": 78400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 95701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 64600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ResetarSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 86886800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "preencho o campo Email com \"thiago\" valido",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thiago",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.preencho_o_campo_Email_com_valido(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 34400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "a aaplicacao deve exibir a mensagem de Email invalido",
+            "match": {
+              "location": "LoginSteps.a_aaplicacao_deve_exibir_a_mensagem_de_Email_invalido()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@login-email-invalido"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Acessar tela login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 2983496100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que estou na tela de login",
+            "match": {
+              "location": "LoginSteps.que_estou_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Login com email vazio",
+        "description": "",
+        "id": "login-do-usuário;login-com-email-vazio",
+        "after": [
+          {
+            "result": {
+              "duration": 37300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 39600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 38899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ResetarSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 147697799,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "não preencho o campo Email",
+            "match": {
+              "location": "LoginSteps.não_preencho_o_campo_Email()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 49207900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "a aplicacao deve exibir a mensagem Email é obrigatorio",
+            "match": {
+              "location": "LoginSteps.a_aplicacao_deve_exibir_a_mensagem_Email_é_obrigatorio()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@login-email-vazio"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Acessar tela login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3007444200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que estou na tela de login",
+            "match": {
+              "location": "LoginSteps.que_estou_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Usuário digita senha errada",
+        "description": "",
+        "id": "login-do-usuário;usuário-digita-senha-errada",
+        "after": [
+          {
+            "result": {
+              "duration": 35101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 40001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 26500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ResetarSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 109354000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "preencho o campo Email com \"thiago.lyon.passos@gmail.com\" valido",
             "match": {
               "arguments": [
                 {
                   "val": "thiago.lyon.passos@gmail.com",
-                  "offset": 18
+                  "offset": 28
                 }
               ],
-              "location": "ResetarSteps.preencho_o_email(String)"
+              "location": "LoginSteps.preencho_o_campo_Email_com_valido(String)"
             },
-            "keyword": "E "
+            "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 78838499,
+              "duration": 78559200,
               "status": "passed"
             },
-            "line": 9,
-            "name": "clico no botao RECUPERAR",
+            "line": 35,
+            "name": "preencho o campo Senha com a senha errada \"senhaerrada\"",
             "match": {
-              "location": "ResetarSteps.clico_no_botao_RECUPERAR()"
+              "arguments": [
+                {
+                  "val": "senhaerrada",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginSteps.preencho_o_campo_Senha_com_a_senha_errada(String)"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 73831599,
+              "duration": 72932000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "clico no botao entrar",
+            "match": {
+              "location": "LoginSteps.clico_no_botao_entrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 604501601,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "a aplicacao deve exibir a mensagem Email ou senha invalidos",
+            "match": {
+              "location": "LoginSteps.a_aplicacao_deve_exibir_a_mensagem_Email_ou_senha_invalidos()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@login-senha-incorreta"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Acessar tela login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3046947001,
               "status": "passed"
             },
             "line": 10,
-            "name": "clico no botao OK",
+            "name": "que estou na tela de login",
             "match": {
-              "location": "ResetarSteps.clico_no_botao_OK()"
+              "location": "LoginSteps.que_estou_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Usuário não preenche o campo senha",
+        "description": "",
+        "id": "login-do-usuário;usuário-não-preenche-o-campo-senha",
+        "after": [
+          {
+            "result": {
+              "duration": 38300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 27999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ResetarSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 114243800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "preencho o campo Email com \"thiago.lyon.passos@gmail.com\" valido",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thiago.lyon.passos@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.preencho_o_campo_Email_com_valido(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 158244499,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "não preencho o campo senha",
+            "match": {
+              "location": "LoginSteps.não_preencho_o_campo_senha()"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 54865900,
+              "duration": 50877000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "o email de redefinir senha é enviado",
+            "line": 43,
+            "name": "a aplicacao deve exibir a mensagem Senha é obrigatoria",
             "match": {
-              "location": "ResetarSteps.o_email_de_redefinir_senha_é_enviado()"
+              "location": "LoginSteps.a_aplicacao_deve_exibir_a_mensagem_Senha_é_obrigatoria()"
             },
             "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@login-senha-vazio"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Acessar tela login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3024801100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que estou na tela de login",
+            "match": {
+              "location": "LoginSteps.que_estou_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Usuário digitou senha com menos de 6 caracteres",
+        "description": "",
+        "id": "login-do-usuário;usuário-digitou-senha-com-menos-de-6-caracteres",
+        "after": [
+          {
+            "result": {
+              "duration": 40499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 42601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroSteps.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 44500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ResetarSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 107957000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "preencho o campo Email com \"thiago.lyon.passos@gmail.com\" valido",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thiago.lyon.passos@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.preencho_o_campo_Email_com_valido(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 75482600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "preencho o campo Senha com menos que seis caracteres \"Senha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Senha",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginSteps.preencho_o_campo_Senha_com_menos_que_seis_caracteres(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 44146400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "a aplicacao deve exibir a mensagem Senha deve conter no mínimo seis caracteres",
+            "match": {
+              "location": "LoginSteps.a_aplicacao_deve_exibir_a_mensagem_Senha_deve_conter_no_mínimo_seis_caracteres()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@senha-invalida"
           }
         ]
       }
     ],
-    "name": "Resetar e redefinir senha",
-    "description": "",
-    "id": "resetar-e-redefinir-senha",
+    "name": "Login do usuário",
+    "description": "Eu como usuário cadastrado\r\nQuero Realizaro login na minha conta\r\nPara poder realizar meus pedidos",
+    "id": "login-do-usuário",
     "keyword": "Funcionalidade",
-    "uri": "resetar.feature",
+    "uri": "login.feature",
     "tags": [
       {
         "line": 3,
-        "name": "@resetar"
+        "name": "@login"
       }
     ]
   }

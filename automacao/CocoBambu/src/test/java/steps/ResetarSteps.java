@@ -1,9 +1,12 @@
 package steps;
 
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
 import pages.ResetarPage;
 import runner.RunCucumber;
+import support.ScreenshotUtils;
 
 public class ResetarSteps extends RunCucumber {
 
@@ -32,5 +35,10 @@ public class ResetarSteps extends RunCucumber {
     @Então("^o email de redefinir senha é enviado$")
     public void o_email_de_redefinir_senha_é_enviado()  {
         resetarPage.validarTelaEntrar();
+    }
+
+    @After
+    public static void afterScenario(Scenario scenario) {
+        ScreenshotUtils.addScreenshotOnScenario(scenario);
     }
 }

@@ -1,10 +1,13 @@
 package steps;
 
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
 import pages.LoginPage;
 import runner.RunCucumber;
+import support.ScreenshotUtils;
 
 public class LoginSteps extends RunCucumber {
 
@@ -53,7 +56,7 @@ public class LoginSteps extends RunCucumber {
 
     @Então("^a aplicavao deve exibir a mensagem Email invalido$")
     public void a_aplicacao_deve_exibir_a_mensagem_Email_invalido() {
-        loginPage.validandoMensagem();
+        loginPage.mensagemEmailInvalido();
     }
 
     @Quando("^não preencho o campo Email$")
@@ -94,5 +97,15 @@ public class LoginSteps extends RunCucumber {
     @Então("^a aplicacao deve exibir a mensagem Senha deve conter no mínimo seis caracteres$")
     public void a_aplicacao_deve_exibir_a_mensagem_Senha_deve_conter_no_mínimo_seis_caracteres(){
         loginPage.mensagemSenhaSeis();
+    }
+
+    @Então("^a aaplicacao deve exibir a mensagem de Email invalido$")
+    public void a_aaplicacao_deve_exibir_a_mensagem_de_Email_invalido() {
+
+    }
+
+    @After
+    public static void afterScenario(Scenario scenario) {
+        ScreenshotUtils.addScreenshotOnScenario(scenario);
     }
 }
