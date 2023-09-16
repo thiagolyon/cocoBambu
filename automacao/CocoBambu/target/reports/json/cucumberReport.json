@@ -1,0 +1,112 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Usuário deseja resetar e redefinir senha",
+        "description": "",
+        "id": "resetar-e-redefinir-senha;usuário-deseja-resetar-e-redefinir-senha",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2903227800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que estou na tela de login",
+            "match": {
+              "location": "LoginSteps.que_estou_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 84668300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico no botao Resetar senha",
+            "match": {
+              "location": "ResetarSteps.clico_no_botao_Resetar_senha()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 724333700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "preencho o email \"thiago.lyon.passos@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thiago.lyon.passos@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "ResetarSteps.preencho_o_email(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 78838499,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clico no botao RECUPERAR",
+            "match": {
+              "location": "ResetarSteps.clico_no_botao_RECUPERAR()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 73831599,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico no botao OK",
+            "match": {
+              "location": "ResetarSteps.clico_no_botao_OK()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 54865900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o email de redefinir senha é enviado",
+            "match": {
+              "location": "ResetarSteps.o_email_de_redefinir_senha_é_enviado()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Resetar e redefinir senha",
+    "description": "",
+    "id": "resetar-e-redefinir-senha",
+    "keyword": "Funcionalidade",
+    "uri": "resetar.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@resetar"
+      }
+    ]
+  }
+]
