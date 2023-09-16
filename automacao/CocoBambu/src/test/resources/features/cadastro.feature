@@ -11,7 +11,7 @@
       Dado que estou na tela de login
       Quando clico no botao Cadastre-se
       E preencho o campo nome completo "Thiago Lyon Souza do Nascimento"
-      E preencho o campo email "thiagococo5@bambu.com"
+      E preencho o campo email "thiagococo6@bambu.com"
       E preencho o campo senha "CocoBambu23@"
       E preencho o campo confirmar senha "CocoBambu23@"
       E seleciono um estado
