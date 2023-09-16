@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/reports/json/cucumberReport.json", "html:target/reports/html"},
         features = "src/test/resources/features",
         glue = {"steps"},
-        tags = {"@login"}
+        tags = {"~@ignore"}
 )
 public class RunCucumber extends RunBase {
 

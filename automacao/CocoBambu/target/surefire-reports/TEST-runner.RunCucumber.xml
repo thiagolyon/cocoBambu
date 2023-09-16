@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.RunCucumber" time="11.337" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.RunCucumber" time="85.927" tests="94" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\thiag\AppData\Local\Temp\surefire5846700448810952813\surefirebooter1839295100476062764.jar C:\Users\thiag\AppData\Local\Temp\surefire5846700448810952813 2023-09-16T08-46-30_679-jvmRun1 surefire1846856894234030745tmp surefire_04016615732328473437tmp"/>
+    <property name="sun.java.command" value="C:\Users\thiag\AppData\Local\Temp\surefire3235700061848953434\surefirebooter3400167809584940622.jar C:\Users\thiag\AppData\Local\Temp\surefire3235700061848953434 2023-09-16T10-05-03_287-jvmRun1 surefire1427023120829035974tmp surefire_02456797871413919019tmp"/>
     <property name="test" value="RunCucumber"/>
     <property name="surefire.test.class.path" value="C:\Users\thiag\OneDrive\Área de Trabalho\coco-bambu\automacao\CocoBambu\target\test-classes;C:\Users\thiag\OneDrive\Área de Trabalho\coco-bambu\automacao\CocoBambu\target\classes;C:\Users\thiag\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\thiag\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\thiag\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\thiag\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\thiag\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\thiag\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\thiag\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\thiag\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\thiag\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\thiag\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\thiag\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\thiag\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\thiag\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\thiag\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\thiag\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\thiag\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\thiag\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\thiag\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\thiag\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\thiag\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\thiag\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\thiag\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\thiag\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\thiag\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\thiag\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\thiag\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\thiag\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\thiag\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\thiag\.m2\repository\com\trivago\rta\cluecumber-report-plugin\2.8.0\cluecumber-report-plugin-2.8.0.jar;C:\Users\thiag\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\thiag\.m2\repository\org\apache\maven\maven-plugin-api\3.8.4\maven-plugin-api-3.8.4.jar;C:\Users\thiag\.m2\repository\org\apache\maven\maven-model\3.8.4\maven-model-3.8.4.jar;C:\Users\thiag\.m2\repository\org\apache\maven\maven-artifact\3.8.4\maven-artifact-3.8.4.jar;C:\Users\thiag\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\thiag\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\thiag\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\thiag\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\thiag\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\thiag\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\thiag\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\thiag\.m2\repository\io\gsonfire\gson-fire\1.9.0-alpha2\gson-fire-1.9.0-alpha2.jar;C:\Users\thiag\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\thiag\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\thiag\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\thiag\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\thiag\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\thiag\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\thiag\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\thiag\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\thiag\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\thiag\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\thiag\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\thiag\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\thiag\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\thiag\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\thiag\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\thiag\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\thiag\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\thiag\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\thiag\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\thiag\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\thiag\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\thiag\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\thiag\AppData\Local\Temp\surefire5846700448810952813\surefirebooter1839295100476062764.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\thiag\AppData\Local\Temp\surefire3235700061848953434\surefirebooter3400167809584940622.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -43,7 +43,7 @@
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="browser" value="chrome-ci"/>
+    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\thiag\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -62,14 +62,762 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Dado que estou na tela de login" classname="Cenário: Usuário deseja resetar e redefinir senha" time="0">
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Cadastro com sucesso" time="0">
     <system-out><![CDATA[####################
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 44027
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 16518
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-set 16, 2023 8:46:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+set 16, 2023 10:05:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando clico no botao Cadastre-se" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: span.link
+Clicou no elemento: By.cssSelector: span.link
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo nome completo &quot;Thiago Lyon Souza do Nascimento&quot;" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: #name > input
+Preencheu o campo: By.cssSelector: #name > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo email &quot;thiagococo5@bambu.com&quot;" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[3]/ion-input/input
+Preencheu o campo: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[3]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo senha &quot;CocoBambu23@&quot;" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+Preencheu o campo: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo confirmar senha &quot;CocoBambu23@&quot;" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[7]/ion-input/input
+Preencheu o campo: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[7]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E seleciono um estado" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: //*[@id='formRegisterUser']/div[9]/ion-select
+Clicou no elemento: By.xpath: //*[@id='formRegisterUser']/div[9]/ion-select
+####################
+Vai clicar no elemento: By.xpath: /html/body/app-root/ion-app/ion-action-sheet/div[2]/div/div[1]/button[8]
+Clicou no elemento: By.xpath: /html/body/app-root/ion-app/ion-action-sheet/div[2]/div/div[1]/button[8]
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E seleciono o checkbox de notificacoes" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[11]/ion-item[1]/ion-checkbox
+Clicou no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[11]/ion-item[1]/ion-checkbox
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E seleciono o checkbox de termos e condicoes" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: #formRegisterUser > div.checkbox-container > ion-item.checkbox.ion-untouched.ion-pristine.ion-invalid.item.md.ion-activatable.ion-focusable.hydrated.item-label > ion-checkbox
+Clicou no elemento: By.cssSelector: #formRegisterUser > div.checkbox-container > ion-item.checkbox.ion-untouched.ion-pristine.ion-invalid.item.md.ion-activatable.ion-focusable.hydrated.item-label > ion-checkbox
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico no botao aceitar" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: #content > terms-and-conditions > base-button > button
+Clicou no elemento: By.cssSelector: #content > terms-and-conditions > base-button > button
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico no botao cadastrar" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/div[1]/button
+Clicou no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/div[1]/button
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então o codigo é enviado para o meu email" classname="Cenário: Cadastro com sucesso" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div/email-spam-popup/div/div/base-button/button
+Clicou no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div/email-spam-popup/div/div/base-button/button
+####################
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Cadastro com sucesso" time="0.006">
+    <system-out><![CDATA[************
+Teste executado: Cadastro com sucesso
+Status: passed
+Tag: [@cadastro-sucesso, @cadastro]
+************
+************
+Teste executado: Cadastro com sucesso
+Status: passed
+Tag: [@cadastro-sucesso, @cadastro]
+************
+************
+Teste executado: Cadastro com sucesso
+Status: passed
+Tag: [@cadastro-sucesso, @cadastro]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 37616
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:05:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando clico no botao Cadastre-se" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: span.link
+Clicou no elemento: By.cssSelector: span.link
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico no campo Nome completo" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: #name > input
+Clicou no elemento: By.cssSelector: #name > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico fora do campo Nome completo" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+Clicou no elemento: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico no campo Email" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[3]/ion-input/input
+Clicou no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[3]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico fora do campo Email" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: #name > input
+Clicou no elemento: By.cssSelector: #name > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico no campo Senha" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+Clicou no elemento: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico fora do campo Senha" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: #name > input
+Clicou no elemento: By.cssSelector: #name > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico no campo Confirmar senha" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[7]/ion-input/input
+Clicou no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[7]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico fora do campo Confirmar senha" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: #name > input
+Clicou no elemento: By.cssSelector: #name > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir as mensagem de campos obrigatórios" classname="Cenário: Validando campos obrigatórios" time="0">
+    <system-out><![CDATA[####################
+####################
+####################
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Validando campos obrigatórios" time="0.003">
+    <system-out><![CDATA[************
+Teste executado: Validando campos obrigatórios
+Status: passed
+Tag: [@validação-campos-obrigatorios, @cadastro]
+************
+************
+Teste executado: Validando campos obrigatórios
+Status: passed
+Tag: [@validação-campos-obrigatorios, @cadastro]
+************
+************
+Teste executado: Validando campos obrigatórios
+Status: passed
+Tag: [@validação-campos-obrigatorios, @cadastro]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Validando campo nome completo com um caractere" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 46362
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:05:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando clico no botao Cadastre-se" classname="Cenário: Validando campo nome completo com um caractere" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: span.link
+Clicou no elemento: By.cssSelector: span.link
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo nome completo com um caractere &quot;a&quot;" classname="Cenário: Validando campo nome completo com um caractere" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: #name > input
+Preencheu o campo: By.cssSelector: #name > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir a mensagem Nome completo deve conter mais de dois caracteres" classname="Cenário: Validando campo nome completo com um caractere" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Validando campo nome completo com um caractere" time="0.002">
+    <system-out><![CDATA[************
+Teste executado: Validando campo nome completo com um caractere
+Status: passed
+Tag: [@validacao-campo-nome-um-caractere, @cadastro]
+************
+************
+Teste executado: Validando campo nome completo com um caractere
+Status: passed
+Tag: [@validacao-campo-nome-um-caractere, @cadastro]
+************
+************
+Teste executado: Validando campo nome completo com um caractere
+Status: passed
+Tag: [@validacao-campo-nome-um-caractere, @cadastro]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Validando campo nome completo tres caracteres" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 34440
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:05:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando clico no botao Cadastre-se" classname="Cenário: Validando campo nome completo tres caracteres" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: span.link
+Clicou no elemento: By.cssSelector: span.link
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo nome completo com um caractere &quot;aaa&quot;" classname="Cenário: Validando campo nome completo tres caracteres" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: #name > input
+Preencheu o campo: By.cssSelector: #name > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir a mensagem Digite seu nome completo" classname="Cenário: Validando campo nome completo tres caracteres" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Validando campo nome completo tres caracteres" time="0.003">
+    <system-out><![CDATA[************
+Teste executado: Validando campo nome completo tres caracteres
+Status: passed
+Tag: [@validacao-campo-nome-tres-caracteres, @cadastro]
+************
+************
+Teste executado: Validando campo nome completo tres caracteres
+Status: passed
+Tag: [@validacao-campo-nome-tres-caracteres, @cadastro]
+************
+************
+Teste executado: Validando campo nome completo tres caracteres
+Status: passed
+Tag: [@validacao-campo-nome-tres-caracteres, @cadastro]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Validando campo Email" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 8560
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:05:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando clico no botao Cadastre-se" classname="Cenário: Validando campo Email" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: span.link
+Clicou no elemento: By.cssSelector: span.link
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo email &quot;thiago&quot;" classname="Cenário: Validando campo Email" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[3]/ion-input/input
+Preencheu o campo: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div[2]/register-popup/div/form/div[3]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir a mensagem Email invalido" classname="Cenário: Validando campo Email" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Validando campo Email" time="0.001">
+    <system-out><![CDATA[************
+Teste executado: Validando campo Email
+Status: passed
+Tag: [@cadastro, @validacao-campo-email]
+************
+************
+Teste executado: Validando campo Email
+Status: passed
+Tag: [@cadastro, @validacao-campo-email]
+************
+************
+Teste executado: Validando campo Email
+Status: passed
+Tag: [@cadastro, @validacao-campo-email]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Validando campo senha" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 39164
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:05:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando clico no botao Cadastre-se" classname="Cenário: Validando campo senha" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: span.link
+Clicou no elemento: By.cssSelector: span.link
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo senha &quot;ASDQW&quot;" classname="Cenário: Validando campo senha" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+Preencheu o campo: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir a mensagem Senha deve conter no minimo seis caracteres" classname="Cenário: Validando campo senha" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Validando campo senha" time="0.002">
+    <system-out><![CDATA[************
+Teste executado: Validando campo senha
+Status: passed
+Tag: [@validacao-campo-senha, @cadastro]
+************
+************
+Teste executado: Validando campo senha
+Status: passed
+Tag: [@validacao-campo-senha, @cadastro]
+************
+************
+Teste executado: Validando campo senha
+Status: passed
+Tag: [@validacao-campo-senha, @cadastro]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Validando campo senha com seis caracteres" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 46730
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:05:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando clico no botao Cadastre-se" classname="Cenário: Validando campo senha com seis caracteres" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: span.link
+Clicou no elemento: By.cssSelector: span.link
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo senha &quot;asdqwe&quot;" classname="Cenário: Validando campo senha com seis caracteres" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+Preencheu o campo: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir a mensagem Sua senha deve conter no minimo um caractere maiusculo" classname="Cenário: Validando campo senha com seis caracteres" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Validando campo senha com seis caracteres" time="0.003">
+    <system-out><![CDATA[************
+Teste executado: Validando campo senha com seis caracteres
+Status: passed
+Tag: [@cadastro, @validacao-campo-senha-seis-caracteres]
+************
+************
+Teste executado: Validando campo senha com seis caracteres
+Status: passed
+Tag: [@cadastro, @validacao-campo-senha-seis-caracteres]
+************
+************
+Teste executado: Validando campo senha com seis caracteres
+Status: passed
+Tag: [@cadastro, @validacao-campo-senha-seis-caracteres]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Validando campo senha com seis caracateres com um caractere maiusculo" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 14285
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:05:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando clico no botao Cadastre-se" classname="Cenário: Validando campo senha com seis caracateres com um caractere maiusculo" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: span.link
+Clicou no elemento: By.cssSelector: span.link
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo senha &quot;asdqweA&quot;" classname="Cenário: Validando campo senha com seis caracateres com um caractere maiusculo" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+Preencheu o campo: By.xpath: //*[@id='formRegisterUser']/div[5]/ion-input/input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir a mensagem Sua senha deve conter no minimo um caractere especial" classname="Cenário: Validando campo senha com seis caracateres com um caractere maiusculo" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Validando campo senha com seis caracateres com um caractere maiusculo" time="0.002">
+    <system-out><![CDATA[************
+Teste executado: Validando campo senha com seis caracateres com um caractere maiusculo
+Status: passed
+Tag: [@cadastro, @validacao-campo-senha-seis-caracteres-um-maisculo]
+************
+************
+Teste executado: Validando campo senha com seis caracateres com um caractere maiusculo
+Status: passed
+Tag: [@cadastro, @validacao-campo-senha-seis-caracteres-um-maisculo]
+************
+************
+Teste executado: Validando campo senha com seis caracateres com um caractere maiusculo
+Status: passed
+Tag: [@cadastro, @validacao-campo-senha-seis-caracteres-um-maisculo]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Login com sucesso" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 17835
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:05:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando preencho o campo Email com &quot;thiago.lyon.passos@gmail.com&quot; valido" classname="Cenário: Login com sucesso" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: #username > input
+Preencheu o campo: By.cssSelector: #username > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo Senha com &quot;9KrDv$H39diPHZ&quot; valida" classname="Cenário: Login com sucesso" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: ion-input[formcontrolname='password'] input.native-input
+Preencheu o campo: By.cssSelector: ion-input[formcontrolname='password'] input.native-input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico no botao entrar" classname="Cenário: Login com sucesso" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: //*[@id='content']/app-login/div/div/div[2]/button
+Clicou no elemento: By.xpath: //*[@id='content']/app-login/div/div/div[2]/button
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo auteticacao com o codigo recebido" classname="Cenário: Login com sucesso" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div/email-spam-popup/div/div/base-button
+Clicou no elemento: By.xpath: /html/body/app-root/ion-app/div/div/desktop-modal/div/email-spam-popup/div/div/base-button
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico no botao acessar" classname="Cenário: Login com sucesso" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: a.login_next_button
+Clicou no elemento: By.cssSelector: a.login_next_button
+####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 29409
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:05:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Então a aplicacao deve ser redirecionada para a tela de delivery" classname="Cenário: Login com sucesso" time="0"/>
+  <testcase name="" classname="Cenário: Login com sucesso" time="0.002">
+    <system-out><![CDATA[************
+Teste executado: Login com sucesso
+Status: passed
+Tag: [@login-sucesso, @login]
+************
+************
+Teste executado: Login com sucesso
+Status: passed
+Tag: [@login-sucesso, @login]
+************
+************
+Teste executado: Login com sucesso
+Status: passed
+Tag: [@login-sucesso, @login]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Usuário realiza login com um email invalido" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 26479
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:06:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando preencho o campo Email com &quot;thiago&quot; valido" classname="Cenário: Usuário realiza login com um email invalido" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: #username > input
+Preencheu o campo: By.cssSelector: #username > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aaplicacao deve exibir a mensagem de Email invalido" classname="Cenário: Usuário realiza login com um email invalido" time="0"/>
+  <testcase name="" classname="Cenário: Usuário realiza login com um email invalido" time="0.003">
+    <system-out><![CDATA[************
+Teste executado: Usuário realiza login com um email invalido
+Status: passed
+Tag: [@login, @login-email-invalido]
+************
+************
+Teste executado: Usuário realiza login com um email invalido
+Status: passed
+Tag: [@login, @login-email-invalido]
+************
+************
+Teste executado: Usuário realiza login com um email invalido
+Status: passed
+Tag: [@login, @login-email-invalido]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Login com email vazio" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 17911
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:06:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando não preencho o campo Email" classname="Cenário: Login com email vazio" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: #username > input
+Clicou no elemento: By.cssSelector: #username > input
+####################
+Vai clicar no elemento: By.cssSelector: ion-input[formcontrolname='password'] input.native-input
+Clicou no elemento: By.cssSelector: ion-input[formcontrolname='password'] input.native-input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir a mensagem Email é obrigatorio" classname="Cenário: Login com email vazio" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Login com email vazio" time="0.001">
+    <system-out><![CDATA[************
+Teste executado: Login com email vazio
+Status: passed
+Tag: [@login, @login-email-vazio]
+************
+************
+Teste executado: Login com email vazio
+Status: passed
+Tag: [@login, @login-email-vazio]
+************
+************
+Teste executado: Login com email vazio
+Status: passed
+Tag: [@login, @login-email-vazio]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Usuário digita senha errada" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 4481
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:06:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando preencho o campo Email com &quot;thiago.lyon.passos@gmail.com&quot; valido" classname="Cenário: Usuário digita senha errada" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: #username > input
+Preencheu o campo: By.cssSelector: #username > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo Senha com a senha errada &quot;senhaerrada&quot;" classname="Cenário: Usuário digita senha errada" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: ion-input[formcontrolname='password'] input.native-input
+Preencheu o campo: By.cssSelector: ion-input[formcontrolname='password'] input.native-input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E clico no botao entrar" classname="Cenário: Usuário digita senha errada" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.xpath: //*[@id='content']/app-login/div/div/div[2]/button
+Clicou no elemento: By.xpath: //*[@id='content']/app-login/div/div/div[2]/button
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir a mensagem Email ou senha invalidos" classname="Cenário: Usuário digita senha errada" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Usuário digita senha errada" time="0.002">
+    <system-out><![CDATA[************
+Teste executado: Usuário digita senha errada
+Status: passed
+Tag: [@login-senha-incorreta, @login]
+************
+************
+Teste executado: Usuário digita senha errada
+Status: passed
+Tag: [@login-senha-incorreta, @login]
+************
+************
+Teste executado: Usuário digita senha errada
+Status: passed
+Tag: [@login-senha-incorreta, @login]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Usuário não preenche o campo senha" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 25794
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:06:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando preencho o campo Email com &quot;thiago.lyon.passos@gmail.com&quot; valido" classname="Cenário: Usuário não preenche o campo senha" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: #username > input
+Preencheu o campo: By.cssSelector: #username > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E não preencho o campo senha" classname="Cenário: Usuário não preenche o campo senha" time="0">
+    <system-out><![CDATA[Vai clicar no elemento: By.cssSelector: ion-input[formcontrolname='password'] input.native-input
+Clicou no elemento: By.cssSelector: ion-input[formcontrolname='password'] input.native-input
+####################
+Vai clicar no elemento: By.cssSelector: #username > input
+Clicou no elemento: By.cssSelector: #username > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir a mensagem Senha é obrigatoria" classname="Cenário: Usuário não preenche o campo senha" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Usuário não preenche o campo senha" time="0.001">
+    <system-out><![CDATA[************
+Teste executado: Usuário não preenche o campo senha
+Status: passed
+Tag: [@login, @login-senha-vazio]
+************
+************
+Teste executado: Usuário não preenche o campo senha
+Status: passed
+Tag: [@login, @login-senha-vazio]
+************
+************
+Teste executado: Usuário não preenche o campo senha
+Status: passed
+Tag: [@login, @login-senha-vazio]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Usuário digitou senha com menos de 6 caracteres" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 5983
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:06:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Quando preencho o campo Email com &quot;thiago.lyon.passos@gmail.com&quot; valido" classname="Cenário: Usuário digitou senha com menos de 6 caracteres" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: #username > input
+Preencheu o campo: By.cssSelector: #username > input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="E preencho o campo Senha com menos que seis caracteres &quot;Senha&quot;" classname="Cenário: Usuário digitou senha com menos de 6 caracteres" time="0">
+    <system-out><![CDATA[Vai preencher o campo: By.cssSelector: ion-input[formcontrolname='password'] input.native-input
+Preencheu o campo: By.cssSelector: ion-input[formcontrolname='password'] input.native-input
+####################
+]]></system-out>
+  </testcase>
+  <testcase name="Então a aplicacao deve exibir a mensagem Senha deve conter no mínimo seis caracteres" classname="Cenário: Usuário digitou senha com menos de 6 caracteres" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Cenário: Usuário digitou senha com menos de 6 caracteres" time="0.001">
+    <system-out><![CDATA[************
+Teste executado: Usuário digitou senha com menos de 6 caracteres
+Status: passed
+Tag: [@login, @senha-invalida]
+************
+************
+Teste executado: Usuário digitou senha com menos de 6 caracteres
+Status: passed
+Tag: [@login, @senha-invalida]
+************
+************
+Teste executado: Usuário digitou senha com menos de 6 caracteres
+Status: passed
+Tag: [@login, @senha-invalida]
+************
+]]></system-out>
+  </testcase>
+  <testcase name="Dado que estou na tela de login" classname="Cenário: Usuário deseja resetar e redefinir senha" time="0">
+    <system-out><![CDATA[####################
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 18997
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+set 16, 2023 10:06:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMAÇÕES: Detected dialect: W3C
 ]]></system-err>
   </testcase>
@@ -101,7 +849,7 @@ Clicou no elemento: By.xpath: /html/body/app-root/ion-app/ion-alert/div[2]/div[3
     <system-out><![CDATA[####################
 ]]></system-out>
   </testcase>
-  <testcase name="" classname="Cenário: Usuário deseja resetar e redefinir senha" time="0.004">
+  <testcase name="" classname="Cenário: Usuário deseja resetar e redefinir senha" time="0.002">
     <system-out><![CDATA[************
 Teste executado: Usuário deseja resetar e redefinir senha
 Status: passed
