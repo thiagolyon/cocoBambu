@@ -18,10 +18,11 @@
     E clico no botao acessar
     Então a aplicacao deve ser redirecionada para a tela de delivery
 
+
   @login-email-invalido
-    Cenário: Login com o email invalido
-      Quando preencho o campo Email com "thiago" invalido
-      Então a aplicacao deve exibir a mensagem Email invalido
+  Cenário: Usuário realiza login com um email invalido
+    Quando preencho o campo Email com "thiago" valido
+    Então a aaplicacao deve exibir a mensagem de Email invalido
 
   @login-email-vazio
     Cenário: Login com email vazio

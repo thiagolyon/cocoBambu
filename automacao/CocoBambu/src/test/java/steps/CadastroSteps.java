@@ -1,9 +1,12 @@
 package steps;
 
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
 import pages.CadastroPage;
 import runner.RunCucumber;
+import support.ScreenshotUtils;
 
 public class CadastroSteps extends RunCucumber {
 
@@ -143,5 +146,10 @@ public class CadastroSteps extends RunCucumber {
     @Então("^a aplicacao deve exibir a mensagem Sua senha deve conter no minimo um caractere especial$")
     public void a_aplicacao_deve_exibir_a_mensagem_Sua_senha_deve_conter_no_minimo_um_caractere_especial() {
         cadastroPage.validarMensagemSenhaComCaractereEspecial();
+    }
+
+    @After
+    public static void afterScenario(Scenario scenario) {
+        ScreenshotUtils.addScreenshotOnScenario(scenario);
     }
 }
